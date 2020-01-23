@@ -2,7 +2,7 @@ import React from "react";
 import s from "./style.css";
 
 const Card = props => (
-  <div className={"card img-container " + s.card}>
+  <div className={"game-card card img-container " + s.card}>
     <img 
       alt={"This image is " + props.name} 
       id={props.id}

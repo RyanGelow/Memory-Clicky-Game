@@ -1,4 +1,5 @@
-let cards = [
+let cards = {
+  "art": [
     {
       "id": 1,
       "name": "Color Wheel",
@@ -71,6 +72,81 @@ let cards = [
       "image": "/images/led-zep.jpg",
       "clicked": false
     }
+  ],
+  "crowds": [
+    {
+      "id": 1,
+      "name": "Color Show",
+      "image": "/images/mosh/color-show.png",
+      "clicked": false
+    },
+    {
+      "id": 12,
+      "name": "Disco Monkey",
+      "image": "/images/mosh/disco-monkey.jpg",
+      "clicked": false
+    },
+    {
+      "id": 3,
+      "name": "Disco",
+      "image": "/images/mosh/disco1.jpg",
+      "clicked": false
+    },
+    {
+      "id": 4,
+      "name": "Japanther",
+      "image": "/images/mosh/japanther.jpg",
+      "clicked": false
+    },
+    {
+      "id": 5,
+      "name": "LCD Soundsystem Show",
+      "image": "/images/mosh/lcd-show.jpg",
+      "clicked": false
+    },
+    {
+      "id": 6,
+      "name": "Black and White Mosh",
+      "image": "./images/mosh/mono-pit.jpg",
+      "clicked": false
+    },
+    {
+      "id": 7,
+      "name": "Mosh Pit",
+      "image": "/images/mosh/moshpit.jpg",
+      "clicked": false
+    },
+    {
+      "id": 8,
+      "name": "Rap Pit",
+      "image": "/images/mosh/rap-pit.jpg",
+      "clicked": false
+    },
+    {
+      "id": 9,
+      "name": "In The Red Club Show",
+      "image": "/images/mosh/red-club.jpg",
+      "clicked": false
+    },
+    {
+      "id": 10,
+      "name": "Shaq in the Mosh Pit",
+      "image": "/images/mosh/shaq-mosh-pit.jpg",
+      "clicked": false
+    },
+    {
+      "id": 11,
+      "name": "Women in the Mosh Pit",
+      "image": "/images/mosh/women-in-the-mosh.jpg",
+      "clicked": false
+    },
+    {
+      "id": 2,
+      "name": "Getting Woos in the Pit",
+      "image": "/images/mosh/woo-pit.jpg",
+      "clicked": false
+    }
   ]
-  
+}
+
   export default cards;
