@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Card from "./../../Partials/Card";
 import Results from "./../../Partials/Results";
+import Footer from "./../../Partials/Footer";
 import { Link } from "react-router-dom";
 
 // import the cards from a json list with image links
@@ -212,6 +213,7 @@ class Main extends Component {
                         </div>
                     </div>
                 </div>
+                <Footer />
             </>
         )
     }

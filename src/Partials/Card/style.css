@@ -33,3 +33,10 @@
     width: 115px;
   }
 }
+
+@media (max-width: 400px) {
+  .game-card {
+    height: 100px;
+    width: 100px;
+  }
+}
