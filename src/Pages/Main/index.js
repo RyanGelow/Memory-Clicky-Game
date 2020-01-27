@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 // import the cards from a json list with image links
 import cards from "./../../cards";
-import bgimage from "./../../img/stars.jpg";
+import bgimage from "./../../img/cat.jpg";
 
 
 const backgroundStyle = {
